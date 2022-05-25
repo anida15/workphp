@@ -1,0 +1,90 @@
+<?php
+ 
+$name = $email = $lastname = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $name = $_POST["fname"];
+  $lastname =  $_POST["lname"];
+  $email =  $_POST["email"];
+
+
+  
+
+$servername = "localhost";
+$username = "anida";
+$password = "Kitale15";
+$dbname = "myDB";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+// prepare and bind
+$stmt = $conn->prepare("INSERT INTO MyGuests (firstname, lastname, email) VALUES (?, ?, ?)");
+$stmt->bind_param("sss", $name, $lastname, $email);
+ 
+$stmt->execute();
+
+ 
+
+$stmt->close();
+$conn->close();
+}
+
+ ?>
+<!DOCTYPE html>
+
+ 
+<html>
+<head>
+          
+         <title>Voters Registration</title>
+          
+         <link rel="stylesheet" href="">
+     </head>
+<body>
+
+<form name="myForm" action="phpfile.php" method="post">
+ <div>
+ <label >First Name</label><br>
+  <input type="text" name="fname" required>
+
+ 
+ </div>
+
+ <div>
+ <label >Last Name</label> <br>
+  <input type="text" name="lname" required>
+
+ </div>
+ 
+  <div>
+     
+  <label >Email</label> <br>
+  <input type="email" name="email" required>
+   
+
+  </div>
+ 
+  <div>
+    
+  <input type="submit" value="Submit">
+
+
+  </div>
+
+</form>
+
+
+
+
+<script src="javascri.js"></script>
+
+</body>
+
+ 
+</html> 

@@ -1,0 +1,56 @@
+ 
+First Name: fsd
+Middle Name: fsfs
+Last Name: fsfs
+National ID: f
+Phone: sfg
+Email: anidakimtai@gmail.com
+Image: image/WhatsApp Image 2022-02-28 at 18.06.48 (2).jpeg
+County: fdgsd
+Constituency: gsdgs
+Ward: gsg
+Hospital: sgs
+Polling: gsg
+Password: g
+
+First Name: fgd
+Middle Name: fsfs
+Last Name: dsd
+National ID: a12
+Phone: fs
+Email: anidakimtai@gmail.com
+Image: image/WhatsApp Image 2022-02-28 at 18.06.48.jpeg
+County: ds
+Constituency: fsf
+Ward: fsfs
+Hospital: fsfs
+Polling: fsfs
+Password: 4
+
+First Name: anida
+Middle Name: dgdg
+Last Name: hgug
+National ID: dan
+Phone: 35467
+Email: anidakimtai@gmail.com
+Image: image/WhatsApp Image 2022-02-28 at 16.48.09 (2).jpeg
+County: ghhgjh
+Constituency: wg
+Ward: gw
+Hospital: fsf
+Polling: gg
+Password: 123
+
+First Name: csf
+Middle Name: gdg
+Last Name: fsdgdgd
+National ID: dg
+Phone: dgdg
+Email: dgd@gmail.vom
+Image: image/WhatsApp Image 2022-02-28 at 16.48.09.jpeg
+County: rbgr
+Constituency: fvdv
+Ward: fd
+Hospital: fdf
+Polling: csdf
+Password: 1
